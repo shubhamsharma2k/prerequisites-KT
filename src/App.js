@@ -9,7 +9,9 @@ import { ContextProvider } from "./context/DemoContext";
 const App = () => {
   return (
     <ContextProvider>
-      <div></div>
+      <div>
+        <DemoUseState />
+      </div>
     </ContextProvider>
   );
 };
