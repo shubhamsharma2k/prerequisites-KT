@@ -1,5 +1,5 @@
 import DemoUseState from "./DemoUseState";
-import { render } from "@testing-library/react";
+import { render, fireEvent } from "@testing-library/react";
 
 test("header renders properly", () => {
   const { getByTestId } = render(<DemoUseState />);
@@ -27,4 +27,28 @@ test("add button renders with +", () => {
   const buttonPlusElement = getByTestId("buttonPlus");
 
   expect(buttonPlusElement.textContent).toBe("+");
+});
+
+test("Increse value of Value state by clicking + button", () => {
+  const { getByTestId } = render(<DemoUseState />);
+  const buttonPlusElement = getByTestId("buttonPlus");
+
+  const counterElement = getByTestId("counterValue");
+
+  expect(counterElement.textContent).toBe("0");
+
+  fireEvent.click(buttonPlusElement);
+
+  expect(counterElement.textContent).toBe("1");
+});
+
+test("Decrement value of Value state by clicking - button", () => {
+  const { getByTestId } = render(<DemoUseState />);
+  const buttonMinusElement = getByTestId("buttonMinus");
+
+  const counterElement = getByTestId("counterValue");
+
+  fireEvent.click(buttonMinusElement);
+
+  expect(counterElement.textContent).toBe("0");
 });
