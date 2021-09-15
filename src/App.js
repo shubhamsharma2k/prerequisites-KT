@@ -9,9 +9,7 @@ import { ContextProvider } from "./context/DemoContext";
 const App = () => {
   return (
     <ContextProvider>
-      <div>
-        <DemoUseEffect />
-      </div>
+      <div></div>
     </ContextProvider>
   );
 };
