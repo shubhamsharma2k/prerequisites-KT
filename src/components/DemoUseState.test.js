@@ -1,6 +1,7 @@
 import DemoUseState from "./DemoUseState";
 import { render, fireEvent } from "@testing-library/react";
 
+//Counter Value Test
 test("header renders properly", () => {
   const { getByTestId } = render(<DemoUseState />);
   const headerElement = getByTestId("header");
@@ -8,6 +9,7 @@ test("header renders properly", () => {
   expect(headerElement.textContent).toBe("My Counter");
 });
 
+//Inital counter value Test
 test("counter initially starts at 0", () => {
   const { getByTestId } = render(<DemoUseState />);
   const counterElement = getByTestId("counterValue");
@@ -15,13 +17,15 @@ test("counter initially starts at 0", () => {
   expect(counterElement.textContent).toBe("0");
 });
 
-test("add button renders with -", () => {
+//Minus Button Test
+test("Minus button renders with -", () => {
   const { getByTestId } = render(<DemoUseState />);
   const buttonMinusElement = getByTestId("buttonMinus");
 
   expect(buttonMinusElement.textContent).toBe("-");
 });
 
+//Add Button Test
 test("add button renders with +", () => {
   const { getByTestId } = render(<DemoUseState />);
   const buttonPlusElement = getByTestId("buttonPlus");
@@ -29,6 +33,7 @@ test("add button renders with +", () => {
   expect(buttonPlusElement.textContent).toBe("+");
 });
 
+//Increase value on add button click
 test("Increse value of Value state by clicking + button", () => {
   const { getByTestId } = render(<DemoUseState />);
   const buttonPlusElement = getByTestId("buttonPlus");
@@ -42,6 +47,7 @@ test("Increse value of Value state by clicking + button", () => {
   expect(counterElement.textContent).toBe("1");
 });
 
+//Decrease value on add button click
 test("Decrement value of Value state by clicking - button", () => {
   const { getByTestId } = render(<DemoUseState />);
   const buttonMinusElement = getByTestId("buttonMinus");
