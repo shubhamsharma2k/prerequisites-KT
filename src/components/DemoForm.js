@@ -1,3 +1,4 @@
+import axios from "axios";
 import React, { useState } from "react";
 
 const DemoForm = () => {
@@ -11,10 +12,28 @@ const DemoForm = () => {
     setFormdata({ ...formData, [e.target.name]: e.target.value });
   };
 
+  const postReq = async () => {
+    const newData = {
+      userId: 1,
+      id: 101,
+      title: "My post",
+      body: "My post body",
+    };
+
+    const data = await axios.post(
+      "https://jsonplaceholder.typicode.com/posts",
+      newData
+    );
+
+    return data;
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
     //POST REQUEST
+
+    postReq();
   };
 
   //USED FLEXBOX AND BOOSTRAP ALSO ONCHANGE EVENT
