@@ -1,4 +1,4 @@
-import DemoUseState from "../../components/DemoUseState";
+import DemoUseState from "./DemoUseState";
 import { render, fireEvent } from "@testing-library/react";
 
 //Counter Value Test

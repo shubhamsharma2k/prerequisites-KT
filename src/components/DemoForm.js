@@ -43,32 +43,35 @@ const DemoForm = () => {
       <form onSubmit={(e) => handleSubmit(e)} style={{ width: "400px" }}>
         <div className="d-flex flex-column mt-4 ms-4">
           <div className="mt-3">
-            <label>Username:</label>
+            <label data-testid="label_username">Username:</label>
             <input
               type="text"
               name="username"
               className="form-control"
               onChange={(e) => handleChange(e)}
+              data-testid="input_username"
             />
           </div>
 
           <div className="mt-3">
-            <label>Password:</label>
+            <label data-testid="label_password">Password:</label>
             <input
               type="password"
               name="password"
               className="form-control"
               onChange={(e) => handleChange(e)}
+              data-testid="input_password"
             />
           </div>
 
           <div className="mt-3">
-            <label>Email:</label>
+            <label data-testid="label_email">Email:</label>
             <input
               type="email"
               className="form-control"
               name="email"
               onChange={(e) => handleChange(e)}
+              data-testid="input_email"
             />
           </div>
           <div>
