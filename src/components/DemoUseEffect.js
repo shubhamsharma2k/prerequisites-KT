@@ -4,6 +4,8 @@ import axios from "axios";
 const DemoUseEffect = () => {
   const [data, setData] = useState([]);
 
+  //useEffect HOOK Example
+  //useEffect hook invokes whenver the page reloads
   useEffect(() => {
     const fetchData = async () => {
       const res = await axios.get("https://jsonplaceholder.typicode.com/todos");

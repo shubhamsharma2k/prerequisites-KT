@@ -1,17 +1,12 @@
 import "./App.css";
-import DemoUseEffect from "./components/DemoUseEffect";
-import DemoUseState from "./components/DemoUseState";
-import DemoMoviesList from "./components/DemoMoviesList";
-import DemoES6 from "./components/DemoES6";
-import DemoForm from "./components/DemoForm";
+import ClickCounter from "./components/HOC/ClickCounter";
+import CommentCounter from "./components/HOC/CommentCounter";
 import { ContextProvider } from "./context/DemoContext";
 
 const App = () => {
   return (
     <ContextProvider>
-      <div>
-        <DemoForm />
-      </div>
+      <div></div>
     </ContextProvider>
   );
 };

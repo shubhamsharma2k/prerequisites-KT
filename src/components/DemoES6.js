@@ -21,7 +21,7 @@ const DemoES6 = () => {
     <div>
       {/* Array Map function */}
       {users.map((user) => {
-        const { address, name, company } = user;
+        const { address, name } = user;
 
         return (
           <div key={user.id}>

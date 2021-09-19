@@ -8,6 +8,7 @@ const DemoForm = () => {
     password: "",
   });
 
+  //Controlling the input fields in the form
   const handleChange = (e) => {
     setFormdata({ ...formData, [e.target.name]: e.target.value });
   };
@@ -36,7 +37,7 @@ const DemoForm = () => {
     postReq();
   };
 
-  //USED FLEXBOX AND BOOSTRAP ALSO ONCHANGE EVENT
+  //USED FLEXBOX AND BOOSTRAP
 
   return (
     <div>
@@ -75,7 +76,11 @@ const DemoForm = () => {
             />
           </div>
           <div>
-            <button type="submit" className="btn btn-dark mt-3">
+            <button
+              type="submit"
+              className="btn btn-dark mt-3"
+              data-testid="submit_form"
+            >
               Submit
             </button>
           </div>

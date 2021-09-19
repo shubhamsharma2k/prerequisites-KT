@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 const DemoUseState = () => {
+  //useState HOOK EXAMPLE
   const [value, setValue] = useState(0);
 
   const handleDecrease = (e) => {

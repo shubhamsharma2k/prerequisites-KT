@@ -1,7 +1,9 @@
 import React from "react";
 
 const DemoLodash = () => {
-  return <div></div>;
+  //ARRAY FUNCTIONS
+
+  return <div>LODASH:</div>;
 };
 
 export default DemoLodash;
