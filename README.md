@@ -1,148 +1,121 @@
 # prerequisites-KT
+
 React Libraries and concepts for Knowledge Transfer (Includes Testing Also)
 
+# KNOWLEDGE TRANSFER DOCUMENTATION
 
+# React And JS Concepts Requirements
 
-# KNOWLEDGE TRANSFER DOCUMENTATION 
+1.Hooks
 
-# React And JS Concepts Requirements 
+2.Context API
 
+3.ES6
 
-1.Hooks 								
+4.SCSS
 
-2.Context API 							
+5.BEM Syntax
 
-3.ES6 									
+6.HOC
 
-4.SCSS 
+7.JSX (Why, how it works)
 
-5.BEM Syntax 							
+8.Lodash
 
-6.HOC 									 
+9.Jest, React Testing library
 
-7.JSX (Why, how it works) 					 
+10.Bootstrap & FlexBox
 
-8.Lodash								
+---
 
-9.Jest, React Testing library				
+# 1. React Hooks:
 
-10.Bootstrap	& FlexBox					
+useState Hook: -
 
- 
-______________________________________________________________________________________________________________________________________________________________
- 
+React Docs- https://reactjs.org/docs/hooks-state.html
 
-# 1. React Hooks: 
+Youtube - https://www.youtube.com/watch?v=O6P86uwfdR0
 
-useState Hook: - 
+useEffect Hook: -
 
-React Docs- https://reactjs.org/docs/hooks-state.html 
+React Docs- https://reactjs.org/docs/hooks-effect.html
 
-Youtube - https://www.youtube.com/watch?v=O6P86uwfdR0 
+Youtube - https://www.youtube.com/watch?v=0ZJgIjIuY7U
 
- 
+# 2. Context API:
 
-useEffect Hook: - 
+Context API is used as a state management tool, which fixes issues like prop drilling in components in React.
 
-React Docs- https://reactjs.org/docs/hooks-effect.html 
+React Docs - https://reactjs.org/docs/context.html
 
-Youtube - https://www.youtube.com/watch?v=0ZJgIjIuY7U 
+Youtube - https://www.youtube.com/watch?v=35lXWvCuM8o
 
- 
+# 3. ES6 Concepts:
 
-# 2. Context API: 
+Let/ Const, Destructuring, Objects, Spread operator, Rest parameter, this keyword, Classes, Arrow functions, Modules, Object literals, template literals, Promises, Async and Await, Array methods (map, filter and other extensions).
 
-Context API is used as a state management tool, which fixes issues like prop drilling in components in React. 
+ES6 Concepts Ref -https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
-React Docs - https://reactjs.org/docs/context.html 
+Youtube - https://www.youtube.com/playlist?list=PLC3y8-rFHvwhI0V5mE9Vu6Nm-nap8EcjV
 
-Youtube - https://www.youtube.com/watch?v=35lXWvCuM8o 
+Youtube - https://www.youtube.com/playlist?list=PLillGF-RfqbZ7s3t6ZInY3NjEOOX7hsBv
 
- 
+# 4. SCSS/SASS:
 
-# 3. ES6 Concepts: 
+Sass stands for Syntactically Awesome Stylesheet
 
-Let/ Const, Destructuring, Objects, Spread operator, Rest parameter, this keyword, Classes, Arrow functions, Modules, Object literals, template literals, Promises, Async and Await, Array methods (map, filter and other extensions). 
+Sass is an extension to CSS
 
-ES6 Concepts Ref -https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference 
+Sass is a CSS pre-processor
 
-Youtube - https://www.youtube.com/playlist?list=PLC3y8-rFHvwhI0V5mE9Vu6Nm-nap8EcjV 
+Sass is completely compatible with all versions of CSS
 
-Youtube - https://www.youtube.com/playlist?list=PLillGF-RfqbZ7s3t6ZInY3NjEOOX7hsBv 
+Sass reduces repetition of CSS and therefore saves time
 
- 
+Youtube - https://www.youtube.com/watch?v=nu5mdN2JIwM
 
-# 4. SCSS/SASS: 
+# 5. BEM SYNTAX:
 
-Sass stands for Syntactically Awesome Stylesheet 
+BEM stands for BLOCK ELEMENT MODIFIER. When it comes to larger, more complex projects, how you organize your code is the key to efficiency in at least these three ways: it affects how long it takes you to write code, how much of that code you’ll have to write and how much loading your browser will have to do. This becomes especially important when you’re working with teams of themers, and when high performance is essential.
 
-Sass is an extension to CSS 
+Youtube - https://www.youtube.com/watch?v=er1JEDuPbZQ
 
-Sass is a CSS pre-processor 
+# 6. HIGH ORDER COMPONENT:
 
-Sass is completely compatible with all versions of CSS 
+Youtube - https://www.youtube.com/watch?v=B6aNv8nkUSw
 
-Sass reduces repetition of CSS and therefore saves time 
+Youtube - https://www.youtube.com/watch?v=rsBQj6X7UK8
 
- 
-Youtube -  https://www.youtube.com/watch?v=nu5mdN2JIwM 
+# 7. JSX:
 
- 
-
-# 5. BEM SYNTAX: 
-
-BEM stands for BLOCK ELEMENT MODIFIER. When it comes to larger, more complex projects, how you organize your code is the key to efficiency in at least these three ways: it affects how long it takes you to write code, how much of that code you’ll have to write and how much loading your browser will have to do. This becomes especially important when you’re working with teams of themers, and when high performance is essential. 
-
-Youtube - https://www.youtube.com/watch?v=er1JEDuPbZQ 
-
- 
-
-# 6. HIGH ORDER COMPONENT: 
-
- 
-Youtube - https://www.youtube.com/watch?v=B6aNv8nkUSw 
-
-Youtube - https://www.youtube.com/watch?v=rsBQj6X7UK8 
-
- 
-
-# 7. JSX: 
-
-React Docs - https://reactjs.org/docs/introducing-jsx.html 
+React Docs - https://reactjs.org/docs/introducing-jsx.html
 
 Youtube - https://www.youtube.com/watch?v=7fPXI_MnBOY
 
- 
+# 8. HIGHER ORDER COMPONENTS
 
- 
-# 9. JEST TESTING LIBRARY: 
+React Docs - https://reactjs.org/docs/higher-order-components.html
 
-JEST is a testing library for Javascript. Run test with special cases and use matchers to pass or fail the test. 
+Youtube - https://www.youtube.com/watch?v=B6aNv8nkUSw
 
-Youtube - https://www.youtube.com/watch?v=7r4xVDI2vho 
+https://www.youtube.com/watch?v=rsBQj6X7UK8
 
-Youtube - https://www.youtube.com/watch?v=3e1GHCA3GP0 
+# 9. JEST TESTING LIBRARY:
 
- 
- 
-# 10. BOOTSTRAP & FLEXBOX: 
+JEST is a testing library for Javascript. Run test with special cases and use matchers to pass or fail the test.
 
-Bootstrap is a CSS Framework, which has inbuilt classes. Use these classes for building responsive, mobile-first sites and any webapp design. 
+Youtube - https://www.youtube.com/watch?v=7r4xVDI2vho
 
- 
+Youtube - https://www.youtube.com/watch?v=3e1GHCA3GP0
 
-Bootstrap Docs - https://getbootstrap.com/docs/5.1/getting-started/introduction/ 
+# 10. BOOTSTRAP & FLEXBOX:
 
-FlexBox Docs - https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+Bootstrap is a CSS Framework, which has inbuilt classes. Use these classes for building responsive, mobile-first sites and any webapp design.
 
- 
+Bootstrap Docs - https://getbootstrap.com/docs/5.1/getting-started/introduction/
 
-Bootstrap Youtube - https://www.youtube.com/watch?v=5GcQtLDGXy8 
+FlexBox Docs - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+Bootstrap Youtube - https://www.youtube.com/watch?v=5GcQtLDGXy8
 
 Flexbox Youtube - https://www.youtube.com/watch?v=JJSoEo8JSnc
-
- 
- 
- 
-
- 
