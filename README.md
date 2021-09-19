@@ -82,9 +82,11 @@ Youtube - https://www.youtube.com/watch?v=er1JEDuPbZQ
 
 # 6. HIGH ORDER COMPONENT:
 
+React Docs - https://reactjs.org/docs/higher-order-components.html
+
 Youtube - https://www.youtube.com/watch?v=B6aNv8nkUSw
 
-Youtube - https://www.youtube.com/watch?v=rsBQj6X7UK8
+https://www.youtube.com/watch?v=rsBQj6X7UK8
 
 # 7. JSX:
 
@@ -92,13 +94,7 @@ React Docs - https://reactjs.org/docs/introducing-jsx.html
 
 Youtube - https://www.youtube.com/watch?v=7fPXI_MnBOY
 
-# 8. HIGHER ORDER COMPONENTS
-
-React Docs - https://reactjs.org/docs/higher-order-components.html
-
-Youtube - https://www.youtube.com/watch?v=B6aNv8nkUSw
-
-https://www.youtube.com/watch?v=rsBQj6X7UK8
+# 8. LODASH LIBRARY
 
 # 9. JEST TESTING LIBRARY:
 
