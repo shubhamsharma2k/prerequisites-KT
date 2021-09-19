@@ -96,6 +96,8 @@ Youtube - https://www.youtube.com/watch?v=7fPXI_MnBOY
 
 # 8. LODASH LIBRARY
 
+Docs - https://lodash.com/docs/4.17.15
+
 # 9. JEST TESTING LIBRARY:
 
 JEST is a testing library for Javascript. Run test with special cases and use matchers to pass or fail the test.
