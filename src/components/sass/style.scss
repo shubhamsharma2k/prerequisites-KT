@@ -1,0 +1,25 @@
+$primaryBtnColor: blue;
+$text-color: white;
+
+//MIXINS
+@mixin flexCenter($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexItem() {
+  margin-right: 100px;
+  padding: 20px;
+}
+
+//CSS
+.flex-container {
+  @include flexCenter(row);
+
+  .flex-itemm {
+    @include flexItem();
+    color: $primaryBtn;
+  }
+}
