@@ -117,3 +117,11 @@ FlexBox Docs - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 Bootstrap Youtube - https://www.youtube.com/watch?v=5GcQtLDGXy8
 
 Flexbox Youtube - https://www.youtube.com/watch?v=JJSoEo8JSnc
+
+# 11. REST
+
+DOCS - https://www.redhat.com/en/topics/api/what-is-a-rest-api
+
+# 12. GIT (Merge, Rebase, Merge Conflict)
+
+Youtube - https://www.youtube.com/watch?v=7Mh259hfxJg

@@ -1,17 +1,40 @@
-.flex-container {
-  display: flex;
-  border: 2px solid grey;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+.main {
+  height: 500px;
 }
 
-.flex-item {
-  margin: 20px;
-  border: 2px solid red;
+.flex-ccontainer {
+  display: flex;
+  height: 500px;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  align-items: center;
+  /* align-content: flex-end; */
+  /* column-gap: 10px; */
+}
+
+.item1 {
+  align-self: flex-end;
   background-color: red;
   color: white;
-  height: 100px;
-  width: 100px;
-  text-align: center;
+}
+
+.item2 {
+  align-self: flex-end;
+  background-color: green;
+  color: white;
+}
+
+.item3 {
+  background-color: blue;
+  color: white;
+}
+
+.item4 {
+  background-color: saddlebrown;
+  color: white;
+}
+
+.item5 {
+  background-color: yellow;
+  color: black;
 }
