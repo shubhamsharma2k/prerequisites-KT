@@ -27,14 +27,20 @@ import React, { useState } from "react";
 //   return SomeComponent;
 // };
 
-const Check = (SomeComponent) => {
-  const [counter, setCounter] = useState(0);
+const CheckWrapper = (WrappedComponent) => {
+  const NewComponent = () => {
+    const [counter, setCounter] = useState(0);
 
-  const handleCounter = () => {
-    setCounter(1);
+    return <WrappedComponent counter={counter} setCounter={setCounter} />;
   };
-
-  return <SomeComponent counter={counter} handleCounter={handleCounter()} />;
+  return NewComponent;
 };
 
-export default Check;
+export default CheckWrapper;
+
+// const IronMan = withSuit( TonyStark )
+// IronMan with suit passing in Tony Stark as a parameter here Tony Stark is
+// original component with suit is the function which
+// will enhance Tony Stark and return Iron Man which is enhanced component
+
+// https://reactjs.org/docs/higher-order-components.html
