@@ -1,15 +1,20 @@
 import React from "react";
-import Check from "./Check";
+import CheckWrapper from "./CheckWrapper";
 
-const ClickCounter = ({ counter, handleCounter }) => {
+const ClickCounter = ({ counter, setCounter }) => {
   console.log(counter);
   return (
     <>
       <div className="text-center">
-        <button className="btn btn-primary">Liked {counter} times</button>
+        <button
+          className="btn btn-primary"
+          onClick={() => setCounter(counter + 1)}
+        >
+          Liked {counter} times
+        </button>
       </div>
     </>
   );
 };
 
-export default Check(ClickCounter);
+export default CheckWrapper(ClickCounter);
