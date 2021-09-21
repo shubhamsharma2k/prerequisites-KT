@@ -1,37 +1,14 @@
 import React, { useState } from "react";
 
-// const Check = (SomeComponent) => {
-//   class NewComponent extends React.Component {
-//     constructor(props) {
-//       super(props);
-
-//       this.state = {
-//         counter: 0,
-//       };
-//     }
-
-//     handleCounter = () => {
-//       this.setState({ counter: this.state.counter + 1 });
-//     };
-
-//     render() {
-//       return (
-//         <SomeComponent
-//           counter={this.state.counter}
-//           handleCounter={this.handleCounter}
-//         />
-//       );
-//     }
-//   }
-
-//   return SomeComponent;
-// };
-
 const CheckWrapper = (WrappedComponent) => {
   const NewComponent = () => {
     const [counter, setCounter] = useState(0);
 
-    return <WrappedComponent counter={counter} setCounter={setCounter} />;
+    const handleClick = () => {
+      setCounter(counter + 1);
+    };
+
+    return <WrappedComponent counter={counter} handleClick={handleClick} />;
   };
   return NewComponent;
 };

@@ -1,13 +1,16 @@
 import React from "react";
+import CheckWrapper from "./CheckWrapper";
 
-const CommentCounter = () => {
+const CommentCounter = ({ counter, handleClick }) => {
   return (
     <>
       <div className="text-center mt-4">
-        <button className="btn btn-primary ">Commented times</button>
+        <button className="btn btn-primary " onClick={handleClick}>
+          Commented {counter} times
+        </button>
       </div>
     </>
   );
 };
 
-export default CommentCounter;
+export default CheckWrapper(CommentCounter);
