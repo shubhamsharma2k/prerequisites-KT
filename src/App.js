@@ -1,15 +1,10 @@
 import "./App.css";
 import "./components/sass/style.css";
-import ClickCounter from "./components/HOC/ClickCounter";
-import HoverCounter from "./components/HOC/HoverCounter";
-import CommentCounter from "./components/HOC/CommentCounter";
-
+import Form from "./components/testing/Form";
 const App = () => {
   return (
     <>
-      <ClickCounter />
-      <CommentCounter />
-      <HoverCounter />
+      <Form />
     </>
   );
 };

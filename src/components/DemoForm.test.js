@@ -1,5 +1,6 @@
 import DemoForm from "./DemoForm";
 import { render, fireEvent } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
 
 test("form render properly", () => {
   //getByTestId gets the data-testid from the component
