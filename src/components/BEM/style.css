@@ -1,0 +1,59 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 70px;
+  background-color: #333333;
+}
+
+.navContainer .navContainer__listGroup ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navContainer .navContainer__listItem {
+  list-style: none;
+  margin-right: 50px;
+}
+
+.navContainer .navContainer__listItem a {
+  text-decoration: none;
+  padding: 5px 10px;
+  color: white;
+}
+
+.navContainer .navContainer__listItem a:hover {
+  color: #dfdfdf;
+}
+
+.navContainer .navContainer__listItem--login {
+  background-color: #b40000;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.navContainer .navContainer__listItem--login:hover {
+  background-color: #720000;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

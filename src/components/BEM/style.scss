@@ -1,0 +1,50 @@
+$primaryColor: blue;
+$textPrimary: white;
+$textSecondary: black;
+$secondaryColor: rgb(51, 51, 51);
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  background-color: $secondaryColor;
+
+  .navContainer__listGroup ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navContainer__listItem {
+    list-style: none;
+    margin-right: 50px;
+  }
+
+  .navContainer__listItem a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: $textPrimary;
+
+    &:hover {
+      color: rgb(223, 223, 223);
+    }
+  }
+
+  .navContainer__listItem--login {
+    background-color: rgb(180, 0, 0);
+    padding: 5px 20px;
+    border-radius: 20px;
+
+    &:hover {
+      background-color: rgb(114, 0, 0);
+      color: white;
+    }
+  }
+}
